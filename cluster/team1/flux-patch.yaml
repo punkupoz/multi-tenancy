@@ -15,8 +15,9 @@ spec:
             - --sync-interval=5m
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --k8s-allow-namespace=team1
-            - --git-url=git@github.com:org/dev-team1
+            - --git-url=git@github.com:punkupoz/multi-tenancy-team1
             - --git-branch=master
+            - --git-user=punkupoz
 ---
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: RoleBinding
